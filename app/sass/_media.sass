@@ -1,0 +1,584 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+@media only screen and (max-width : 1800px)
+	.hero2
+		&_img-section
+			height: 2400px
+@media only screen and (max-width : 1300px)
+	// hero
+	.hero
+		&_img-section
+			height: 2400px
+	// hero
+	// hero 2
+	.hero2
+		&_img-section
+			height: 2600px
+		&_content
+			height: 2670px
+	// hero 2
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+	// header
+	.header
+		&_logo
+			img
+				width: 35px
+		&_tag
+			font-size: 19px
+			letter-spacing: 2px
+			font-weight: 400
+		&_lang
+	// header
+	// main
+	.main
+		&_title
+			font-size: 33px
+			line-height: 40px
+	// main
+	// hero
+	.hero
+		&_img-section
+			height: 2800px
+		// &_content
+		// 	height: 700px
+	// hero
+	// hero 2
+	.hero2
+		margin-top: 40px
+		&_img-section
+			height: 3000px
+		// &_content
+		// 	height: 640px
+	// hero 2
+	// empresas
+	.empresas
+		&_hidden
+			&__content
+				&-title
+					font-size: 28px
+				&-text
+					font-size: 16px
+	// agenda
+	.agenda
+		&_content
+			height: 730px
+		&_title__2
+			margin-left: 120px
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1100px)
+	.main
+		&_title
+			line-height: 40px
+	// hero
+	.hero
+		&_img-section
+			height: 2650px
+		&_content
+			// margin-top: 150px
+			// height: 660px
+			// overflow-y: scroll
+	// hero
+	// hero 2
+	.hero2
+		margin-top: 40px
+		&_img-section
+			height: 3000px
+		// &_content
+		// 	height: 1900px
+			// overflow-y: scroll
+	// hero 2
+	// mews startt
+	.empresas
+		&_content
+			&__title
+				margin-top: 0px
+			&__text
+				margin-top: 10px
+		&_hidden
+			&__img
+				width: 100%
+			&__content
+				width: 100%
+				margin-top: 30px
+	// empresas end
+	// agenda
+	.agenda
+		&_content
+			height: 730px
+		&_title__2
+			margin-left: 125px
+@media only screen and (max-width : 1050px)
+	.hero2
+		&_img-section
+			height: 3200px
+@media only screen and (max-width : 1000px)
+	.hero2
+		&_img-section
+			height: 3300px
+
+@media only screen and (max-width : 992px)
+	/**/
+	// containers
+
+	.right_container
+		width: auto
+		padding-left: 15px
+		padding-right: 15px
+		margin-left: auto
+		margin-right: auto
+	// containers
+	// header
+	.header
+		&_logo
+			img
+				width: 30px
+		&_tag
+			font-size: 18px
+	// header
+	// main
+	.main
+		&_title
+			font-size: 32px
+	// main
+	// hero
+	.hero
+		.container_left
+			width: auto
+			padding-left: 15px
+			padding-right: 15px
+			margin-left: auto
+			margin-right: auto
+		&_right
+			margin-top: 30px
+			padding-left: 5%
+		&_img-section
+			width: 100%
+			position: relative
+			height: auto
+		&_content
+			height: 600px
+			width: 100%
+			overflow-y: scroll
+	// hero
+	// descr section
+	.descr_section
+		&__title
+			font-size: 36px
+	// descr section
+	// hero 2
+	.hero2
+		.container_right
+			width: auto
+			padding-left: 15px
+			padding-right: 15px
+			margin-left: auto
+			margin-right: auto
+		&_left
+			padding-left: 5%
+			margin-bottom: 30px
+		&_img-section
+			text-align: center
+			height: 100%
+			img
+				width: 90%
+				height: auto
+		&_content
+			height: 600px
+			overflow-y: scroll
+	// hero 2
+	// retreat
+	.retreat
+		&_block
+			margin-bottom: 40px
+			padding: 5px 10px
+			&_title
+				font-size: 22px
+			&_text
+				font-size: 16px
+		&_info
+			width: 90%
+			&__text
+				font-size: 16px
+	// retreat
+	// facts
+	.factos
+		&_box
+			margin-bottom: 25px
+			text-align: center
+	// facts
+	.empresas
+		&_title
+			font-size: 16px
+		&_img
+			&__img
+				height: 100%
+		&_content
+			padding: 5px 15px
+			margin-bottom: 20px
+			&__title
+				margin-top: 15px
+			&__text
+				margin-top: 5px
+				margin-bottom: 0 !important
+		&_hidden
+			width: 80%
+			padding: 10px
+			&__img
+				&-logo
+					width: 60px !important
+			&__close
+				top: 1.5%
+				right: 10%
+				z-index: 999
+	.prev_empresas
+		// background-color: $purple
+		img
+			width: 40px !important
+		left: -5px
+	.next_empresas
+		// background-color: $purple
+		img
+			width: 40px !important
+		right: -5px
+	// empresas end
+	// diversity start
+	.diversity
+		&_title
+			font-size: 30px
+		&_descr
+			font-size: 22px
+	// diversity end
+	// agenda
+	.agenda
+		&_card
+			&_1, &_2, &_3, &_4
+				width: 80%
+				padding: 30px
+				padding-bottom: 70px
+				transform: translate(11%)
+				&__text
+					padding: 30px 0
+					
+					font-size: 15px
+		&_title__2
+			margin-left: 320px
+		&_content
+			font-size: 15px
+			height: 630px
+	.next_agenda
+		display: none
+		right: -5%
+		img
+			width: 30px !important
+	.prev_agenda
+		display: none
+		left: -5%
+		img
+			width: 30px !important
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+	// header
+	.header
+		&_logo
+			padding: 5px 8px 8px 8px
+			img
+				width: 25px
+		&_tag
+			font-size: 16px	
+	// header
+	// main
+	.main
+		margin-top: 80px
+		&_title
+			font-size: 30px
+			line-height: 36px
+	// main
+	// hero
+	.hero
+		&_content
+			border-bottom: 1px solid #cccccc
+			margin-bottom: 5px
+			padding-bottom: 10px
+			&__top
+				font-size: 13px
+			&__title
+				font-size: 28px
+			&__descr
+				font-size: 18px
+			&__question
+				font-size: 18px
+			&__answer
+				font-size: 16px
+	// hero
+	// descr section
+	.descr_section
+		&__title
+			font-size: 32px
+			padding: 0px 40px
+			line-height: 38px
+	// descr section
+	// hero2
+	.hero2
+		&_content
+			border-bottom: 1px solid #cccccc
+			margin-bottom: 5px
+			padding-bottom: 10px
+			&__top
+				font-size: 13px
+			&__title
+				font-size: 28px
+			&__descr
+				font-size: 18px
+			&__question
+				font-size: 18px
+			&__answer
+				font-size: 16px
+			&__text
+				font-size: 16px
+	// hero2
+	// facts
+	.facts
+		&_title
+			font-size: 16px
+		&_block
+			&__img
+				width: 40%
+				img
+					width: 60%
+			&_content
+				&-title
+					font-size: 42px
+				&-descr
+					font-size: 20px
+	// facts
+	// empresas start
+	.empresas
+		&_img
+			&__img
+				height: 100%
+		&_title
+			font-size: 16px
+		&_content
+			margin-bottom: 20px
+			&__title
+				margin-top: 25px
+			&__btn
+				text-align: left
+		&_hidden
+			&__content
+				&-message
+					span
+						padding: 10px
+	// empresas end
+	// agenda start
+	.agenda
+		&_title
+			margin-left: 40px
+		&_title__2
+			margin-left: 0
+			border-left: 1px solid #cccccc
+			padding-left: 5px
+		&_cards
+			&__item
+				width: 90%
+				margin: 0px 0px 10px 0
+		&_content
+			width: 90%
+			height: 700px
+			padding: 0px
+			margin: 0px auto
+			&__text
+				padding: 20px 20px 0px 20px
+	.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel
+		display: none
+	// agenda end
+	// diversity start
+	.diversity
+		&_title
+			font-size: 28px
+		&_descr
+			font-size: 19px
+	// diversity end
+	// colleges start
+	.colleges
+		&_box
+			&_modal
+				padding: 20px 0
+				width: 90%
+	// colleges end
+	// retreat
+	.retreat
+		&_info
+			&__img
+				padding: 45px 20px
+			&__text
+				padding: 0px 25px 10px 25px
+	// retreat
+	// footer start
+	.footer
+		&_btnbox
+			text-align: center
+		&_linkbox
+			text-align: center
+		&_socialsbox
+			text-align: center
+	// footer end
+	.prev_empresas
+		display: none
+		// background-color: $purple
+		img
+			width: 40px !important
+		left: -5px
+	.next_empresas
+		display: none
+		// background-color: $purple
+		img
+			width: 40px !important
+		right: -5px
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+	// header
+	.header
+		&_logo
+			img
+				width: 22px
+		&_tag
+			font-size: 14px	
+		&_lang
+			font-size: 14px
+	// header
+	// main
+	.main
+		margin-top: 70px
+		&_title
+			font-size: 28px
+	.scroll_down
+		&__box
+			margin-top: 120px
+			margin-bottom: 20px
+	// main
+	// descr section
+	.descr_section
+		&__title
+			font-size: 30px
+			padding: 0px 30px
+	// descr section
+	// diversity start
+	.diversity
+		&_title
+			font-size: 28px
+		&_descr
+			margin-top: 15px
+			font-size: 18px
+	// diversity end
+	// colleges start
+	.colleges
+		&_box
+			&_modal
+				padding: 40px 20px
+			
+	
+	// colleges end
+	.agenda
+		&_title
+			margin: 5px 0px
+			display: block
+			text-align: center
+		&_title__2
+			padding: 0
+			display: block
+			text-align: center
+			padding-left: 5px
+			border: none
+			margin-left: 0
+		&_close
+			right: -1%
+			img
+				width: 20px !important
+		&_content
+			height: 650px
+			&-linkedin
+				height: 685px
+		&_card
+			&_1
+				&-img-1
+					position: relative
+					width: 100% !important
+					margin: 0
+					&:hover
+						transform: scale(1.1) translate(0px)
+						
+				&-img-2
+					position: relative
+					width: 100% !important
+					margin: 10px 0px
+					left: 0
+					&:hover
+						transform: scale(1.1) translate(0px)
+	.next_agenda
+		display: none
+		right: -10%
+		img
+			width: 30px !important
+	.prev_agenda
+		display: none
+		left: -10%
+		img
+			width: 30px !important
+	#sxsw_image1
+		position: relative
+		margin-left: 10px
+		width: 55% !important
+	#sxsw_image2
+		width: 35% !important
+		position: absolute
+		right: 10%
+		top: 7%
+		left: auto
+
+
+/* Custom, iPhone Retina */
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
