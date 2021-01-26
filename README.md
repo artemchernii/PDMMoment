@@ -16,5 +16,3 @@ $ npm i && gulp
 ```
 
 <img style="width: 100px; border-radius: 3px; box-shadow: 0px 2px 3px rgba(#333, .4);" src="https://media.licdn.com/dms/image/C560BAQHXBghD7Nx-4w/company-logo_200_200/0?e=2159024400&v=beta&t=A6K8_zmA_10tZwaQMNgehsP1XuUp7Bzi9hWbaUExSEg" alt="PDMFC">
-
-123123
